@@ -362,7 +362,6 @@
             background-color: #1da851;
             transform: scale(1.1);
         }
-        
         /* Mobile Responsive */
         @media (max-width: 768px) {
             .nav-links {
@@ -465,69 +464,75 @@
             </div>
         </div>
     </section>
-    <!-- Add this new Packages Section after Services -->
-        <section class="packages" id="packages" style="padding: 80px 5%; background: white;">
-            <h2 class="section-title">Consultation Packages</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <h3>Single Consultation</h3>
-                    <p class="price" style="font-size: 2rem; color: #2ecc71; margin: 1rem 0;">₹1,500</p>
-                    <ul style="text-align: left; list-style: none; padding: 0;">
-                        <li>✓ 45-minute consultation</li>
-                        <li>✓ Personalized diet plan</li>
-                        <li>✓ 7 days WhatsApp support</li>
-                        <li>✓ Recipe suggestions</li>
-                    </ul>
-                    <a href="https://wa.me/919530775077?text=Hi,%20I%20want%20to%20book%20a%20Single%20Consultation%20(₹1500)" class="btn-primary" style="margin-top: 1rem;">Book Now</a>
-                    <p style="margin: 0.5rem 0; color: #666;">or</p>
-                    <a href="#booking-form" 
-                    style="color: #2ecc71; text-decoration: underline;">
-                        Fill booking form ↓
-                    </a>
-                </div>
-                
-                <div class="service-card" style="border: 2px solid #2ecc71;">
-                    <div style="background: #2ecc71; color: white; padding: 0.5rem; margin: -2rem -2rem 1rem -2rem;">
-                        <strong>MOST POPULAR</strong>
-                    </div>
-                    <h3>1 Month Package</h3>
-                    <p class="price" style="font-size: 2rem; color: #2ecc71; margin: 1rem 0;">₹5,000</p>
-                    <ul style="text-align: left; list-style: none; padding: 0;">
-                        <li>✓ 4 consultations (weekly)</li>
-                        <li>✓ Customized meal plans</li>
-                        <li>✓ Daily WhatsApp support</li>
-                        <li>✓ Progress tracking</li>
-                        <li>✓ Recipe book (20 recipes)</li>
-                    </ul>
-                    <a href="https://wa.me/919530775077?text=Hi,%20I%20want%20to%20book%20the%201%20Month%20Package%20(₹5000)" class="btn-primary" style="margin-top: 1rem;">Book Now</a>
-                    <p style="margin: 0.5rem 0; color: #666;">or</p>
-<a href="#booking-form" 
-   style="color: #2ecc71; text-decoration: underline;">
-    Fill booking form ↓
-</a>
-                </div>
-                
-                <div class="service-card">
-                    <h3>3 Month Transformation</h3>
-                    <p class="price" style="font-size: 2rem; color: #2ecc71; margin: 1rem 0;">₹12,000</p>
-                    <p style="text-decoration: line-through; color: #999;">₹15,000</p>
-                    <ul style="text-align: left; list-style: none; padding: 0;">
-                        <li>✓ 12 consultations</li>
-                        <li>✓ Complete lifestyle overhaul</li>
-                        <li>✓ Daily WhatsApp support</li>
-                        <li>✓ Exercise guidance</li>
-                        <li>✓ 50+ recipes</li>
-                        <li>✓ Free follow-up session</li>
-                    </ul>
-                    <a href="https://wa.me/919530775077?text=Hi,%20I%20want%20to%20book%20the%203%20Month%20Transformation%20Package%20(₹12000)" class="btn-primary" style="margin-top: 1rem;">Book Now</a>
-                    <p style="margin: 0.5rem 0; color: #666;">or</p>
-<a href="#booking-form" 
-   style="color: #2ecc71; text-decoration: underline;">
-    Fill booking form ↓
-</a>
-                </div>
+    <!-- Fixed Packages Section -->
+<section class="packages" id="packages" style="padding: 80px 5%; background: white;">
+    <h2 class="section-title">Consultation Packages</h2>
+    <div class="services-grid">
+        <!-- Single Consultation -->
+        <div class="service-card" style="display: flex; flex-direction: column; min-height: 450px;">
+            <div style="flex: 1;">
+                <h3>Single Consultation</h3>
+                <p class="price" style="font-size: 2rem; color: #2ecc71; margin: 1rem 0;">₹1,500</p>
+                <ul style="text-align: left; list-style: none; padding: 0;">
+                    <li>✓ 45-minute consultation</li>
+                    <li>✓ Personalized diet plan</li>
+                    <li>✓ 7 days WhatsApp support</li>
+                    <li>✓ Recipe suggestions</li>
+                </ul>
             </div>
-        </section>
+            <div style="text-align: center;">
+                <a href="https://wa.me/919530775077?text=Hi,%20I%20want%20to%20book%20a%20Single%20Consultation%20(₹1500)" class="btn-primary" style="margin-top: 1rem;">Book Now</a>
+                <p style="margin: 0.5rem 0; color: #666;">or</p>
+                <a href="#booking-form" style="color: #2ecc71; text-decoration: underline;">Fill booking form ↓</a>
+            </div>
+        </div>
+        
+        <!-- 1 Month Package -->
+        <div class="service-card" style="border: 2px solid #2ecc71; display: flex; flex-direction: column; min-height: 450px;">
+            <div style="background: #2ecc71; color: white; padding: 0.5rem; margin: -2rem -2rem 1rem -2rem;">
+                <strong>MOST POPULAR</strong>
+            </div>
+            <div style="flex: 1;">
+                <h3>1 Month Package</h3>
+                <p class="price" style="font-size: 2rem; color: #2ecc71; margin: 1rem 0;">₹5,000</p>
+                <ul style="text-align: left; list-style: none; padding: 0;">
+                    <li>✓ 4 consultations (weekly)</li>
+                    <li>✓ Customized meal plans</li>
+                    <li>✓ Daily WhatsApp support</li>
+                    <li>✓ Progress tracking</li>
+                    <li>✓ Recipe book (20 recipes)</li>
+                </ul>
+            </div>
+            <div style="text-align: center;">
+                <a href="https://wa.me/919530775077?text=Hi,%20I%20want%20to%20book%20the%201%20Month%20Package%20(₹5000)" class="btn-primary" style="margin-top: 1rem;">Book Now</a>
+                <p style="margin: 0.5rem 0; color: #666;">or</p>
+                <a href="#booking-form" style="color: #2ecc71; text-decoration: underline;">Fill booking form ↓</a>
+            </div>
+        </div>
+        
+        <!-- 3 Month Package -->
+        <div class="service-card" style="display: flex; flex-direction: column; min-height: 450px;">
+            <div style="flex: 1;">
+                <h3>3 Month Transformation</h3>
+                <p class="price" style="font-size: 2rem; color: #2ecc71; margin: 1rem 0;">₹12,000</p>
+                <p style="text-decoration: line-through; color: #999;">₹15,000</p>
+                <ul style="text-align: left; list-style: none; padding: 0;">
+                    <li>✓ 12 consultations</li>
+                    <li>✓ Complete lifestyle overhaul</li>
+                    <li>✓ Daily WhatsApp support</li>
+                    <li>✓ Exercise guidance</li>
+                    <li>✓ 50+ recipes</li>
+                    <li>✓ Free follow-up session</li>
+                </ul>
+            </div>
+            <div style="text-align: center;">
+                <a href="https://wa.me/919530775077?text=Hi,%20I%20want%20to%20book%20the%203%20Month%20Transformation%20Package%20(₹12000)" class="btn-primary" style="margin-top: 1rem;">Book Now</a>
+                <p style="margin: 0.5rem 0; color: #666;">or</p>
+                <a href="#booking-form" style="color: #2ecc71; text-decoration: underline;">Fill booking form ↓</a>
+            </div>
+        </div>
+    </div>
+</section>
     <!-- Add this after Packages section -->
 <section id="booking-form" style="padding: 80px 5%; background: #f8f9fa;">
     <h2 class="section-title">Quick Booking Form</h2>
@@ -549,7 +554,7 @@
         <div class="about-content">
             <div class="about-text">
                 <h2>Meet Your Nutritionist</h2>
-                <p>Hi, I'm Dt. Swati, a Clinical Nutritionist with over 10 years of experience in helping people transform their health through personalized nutrition.</p>
+                <p>Hi, I'm Dt. Swati Kaushal, a Clinical Nutritionist with over 5 years of experience in helping people transform their health through personalized nutrition.</p>
                 <p>I believe in sustainable lifestyle changes rather than restrictive diets. My approach combines modern nutritional science with traditional wisdom to create practical meal plans that work for real life.</p>
                 <p>Whether you're dealing with weight issues, hormonal imbalances, or chronic conditions, I'm here to guide you towards better health.</p>
                 <div class="credentials">
